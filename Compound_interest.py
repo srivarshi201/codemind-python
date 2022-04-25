@@ -1,0 +1,6 @@
+p,r,t=input().split()
+p=float(p)
+t=float(t)
+r=float(r)
+ci=p*pow((1+r/100),t)
+print('{:.2f}'.format(ci))
